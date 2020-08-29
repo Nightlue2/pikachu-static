@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    --eye-background:#2e2e2e;
+    --eye-border:black;
+    --background:#ffe600;
+    --lip-color:#9B000A;
+    --tongue-color:rgb(255,72,95);
+    --cheek-color:#F00;
+}
