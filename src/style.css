@@ -42,10 +42,10 @@
   }
   @keyframes eyeMoveOnce {
     25% {
-      transform: translateX(2vw);
+      transform: translateX(1vw);
     }
     50% {
-      transform: translate(2vw, 3vh);
+      transform: translate(1vw, 3vh);
     }
     75% {
       transform: translateY(3vh);
@@ -53,10 +53,9 @@
   }
   @keyframes eyeMove {
     50% {
-      transform: translateX(2vw);
+      transform: translateX(1vw);
     }
   }
-
   .eye.left {
     width: 64px;
     height: 64px;
