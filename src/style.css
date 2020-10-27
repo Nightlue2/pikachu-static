@@ -42,18 +42,21 @@
   }
   @keyframes eyeMoveOnce {
     25% {
-      transform: translateX(1vw);
+      /* transform: translateX(1.9vw); */
+      transform: translateX(54%);
     }
     50% {
-      transform: translate(1vw, 3vh);
+      /* transform: translate(1.9vw, 2.9vw);*/
+      transform: translate(54%, 75%);
     }
     75% {
-      transform: translateY(3vh);
+      /* transform: translateY(2.9vw); */
+      transform: translateY(75%);
     }
   }
   @keyframes eyeMove {
     50% {
-      transform: translateX(1vw);
+      transform: translateX(50%);
     }
   }
   .eye.left {
@@ -265,24 +268,24 @@
     border-style: solid;
     border-radius: 20px/10px;
     position: absolute;
-    top: calc(50vh - 55px);
+    top: calc(50vh - 19vw);
     left: calc(50vw - 12px);
     z-index: 50;
   }
   @keyframes eyeMoveOnce {
     25% {
-      transform: translateX(4vw);
+      transform: translateX(3.8vw);
     }
     50% {
-      transform: translate(4vw, 3.3vh);
+      transform: translate(3.8vw, 5vw);
     }
     75% {
-      transform: translateY(3.3vh);
+      transform: translateY(5vw);
     }
   }
   @keyframes eyeMove {
     50% {
-      transform: translateX(4vw);
+      transform: translateX(3.8vw);
     }
   }
   .eye.left {
@@ -291,8 +294,8 @@
     border: 1px solid var(--eye-border);
     background-color: var(--eye-background);
     position: absolute;
-    left: calc(50vw - 126px);
-    top: calc(50vh - 113px);
+    left: calc(50vw - 33vw);
+    top: calc(50vh - 30vw);
     border-radius: 50%;
   }
   .eye.left::before {
@@ -315,8 +318,8 @@
     border: 1px solid var(--eye-border);
     background-color: var(--eye-background);
     position: absolute;
-    left: calc(50vw + 126px - 14vw);
-    top: calc(50vh - 113px);
+    left: calc(50vw + 33vw - 14vw);
+    top: calc(50vh - 30vw);
     border-radius: 50%;
   }
   .eye.right::before {
@@ -335,7 +338,7 @@
   }
   #mouth {
     position: absolute;
-    top: 50%;
+    top: 46%;
     left: 50%;
     z-index: 10;
   }
@@ -450,7 +453,7 @@
   }
   #cheek {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
   }
   #cheek > .left {
